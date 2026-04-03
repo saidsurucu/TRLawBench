@@ -1,0 +1,590 @@
+{
+  "model": "google/gemma-4-31b-it",
+  "reasoning": true,
+  "total_questions": 97,
+  "tested": 97,
+  "correct": 69,
+  "wrong": 28,
+  "api_errors": 0,
+  "skipped": 0,
+  "accuracy": 71.13,
+  "total_time_seconds": 7958.09,
+  "avg_response_time": 82.039,
+  "tokens": {
+    "prompt": 23227,
+    "completion": 109814,
+    "reasoning": 106767
+  },
+  "topic_stats": {
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 2": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 11": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 22": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 27": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 4": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 16": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 28": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 32": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 12": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 23": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 28": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 35": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 6": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 12": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 21": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 33": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 3": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 15": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 19": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 28": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 8": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 22": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2023 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 26": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 4": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 28": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 41": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 39": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 62": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 71": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 78": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 81": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 85": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024-HMGS ADALET BAKANLIĞI HUKUK MESLEKLERİNE GİRİŞ SINAVI - 91": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Adli Yargı ADLİ YARGI TESTİ - 3": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Adli Yargı ADLİ YARGI TESTİ - 10": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2022-AB/Adli Yargı ADLİ YARGI TESTİ - 29": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Adli Yargı ADLİ YARGI TESTİ - 32": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Av. Adli Yargı ADLİ YARGI-AVUKAT TESTİ - 4": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Av. Adli Yargı ADLİ YARGI-AVUKAT TESTİ - 7": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Av. Adli Yargı ADLİ YARGI-AVUKAT TESTİ - 16": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/Av. Adli Yargı ADLİ YARGI-AVUKAT TESTİ - 28": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/İdari Yargı İDARİ YARGI TESTİ - 2": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2022-AB/İdari Yargı İDARİ YARGI TESTİ - 19": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2022-AB/İdari Yargı İDARİ YARGI TESTİ - 23": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 4": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 19": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 25": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 38": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 50": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 53": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 68": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 72": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 77": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2024 ADALET BAKANLIĞI İDARİ YARGI ÖN SINAVI - 92": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 3": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 10": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 23": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 29": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 4": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 16": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 32": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 11": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 16": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2020 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 28": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 1": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 17": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 21": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 34": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 1": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 10": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2021 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 24": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 9": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 19": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 34": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2018 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ": {
+      "accuracy": 66.7,
+      "tested": 3,
+      "correct": 2,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 5": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 14": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 26": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 4": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 18": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2019 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 29": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2018-Adalet Bakanlığı/Adli Yargı‑Avukat Testi - 4": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2018-Adalet Bakanlığı/Adli Yargı‑Avukat Testi - 10": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2018-Adalet Bakanlığı/Adli Yargı‑Avukat Testi - 35": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 2": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 11": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 18": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI TESTİ - 23": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 7": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 14": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 27": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2017 ADALET BAKANLIĞI SINAVLARI ADLİ YARGI-AVUKAT TESTİ - 29": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2018 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 12": {
+      "accuracy": 0.0,
+      "tested": 1,
+      "correct": 0,
+      "api_err": 0
+    },
+    "2018 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 20": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    },
+    "2018 ADALET BAKANLIĞI SINAVLARI İDARİ YARGI TESTİ - 30": {
+      "accuracy": 100.0,
+      "tested": 1,
+      "correct": 1,
+      "api_err": 0
+    }
+  }
+}
