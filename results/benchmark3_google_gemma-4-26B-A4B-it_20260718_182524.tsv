@@ -1,0 +1,101 @@
+Sıra	ID	Kategori	Doğru	Model	Exact	Puan	Süre(sn)
+1	1	Anayasa Hukuku	E	E	✓	10	11.12
+2	2	Anayasa Hukuku	A	A	✓	10	10.96
+3	3	Anayasa Hukuku	B	B	✓	10	11.71
+4	4	Anayasa Hukuku	C	A	✗	2	56.39
+5	5	Ceza Muhakemesi Hukuku	C	C	✓	10	25.04
+6	6	Ceza Muhakemesi Hukuku	B	A	✗	5	31.88
+7	7	Ceza Muhakemesi Hukuku	B	A	✗	2	46.62
+8	8	Ceza Muhakemesi Hukuku	C	C	✓	9	20.32
+9	9	Ceza Muhakemesi Hukuku	D	D	✓	8	67.3
+10	10	Ceza Muhakemesi Hukuku	C	B	✗	2	43.42
+11	11	Ceza Muhakemesi Hukuku	E	A	✗	4	63.27
+12	12	Ceza Muhakemesi Hukuku	B	D	✗	4	14.18
+13	13	İcra İflas Hukuku	C	C	✓	10	12.11
+14	14	İcra İflas Hukuku	D	D	✓	9	27.4
+15	15	İcra İflas Hukuku	D	A	✗	7	30.86
+16	16	İcra İflas Hukuku	C	C	✓	9	48.86
+17	17	İcra İflas Hukuku	C	A	✗	4	57.03
+18	18	İcra İflas Hukuku	B	E	✗	4	79.6
+19	19	İcra İflas Hukuku	D	D	✓	8	27.36
+20	20	İdari Yargılama Hukuku	E	A	✗	4	11.67
+21	21	İdari Yargılama Hukuku	E	E	✓	9	11.71
+22	22	İdari Yargılama Hukuku	D	B	✗	4	16.96
+23	23	İdari Yargılama Hukuku	D	E	✗	4	9.61
+24	24	İş Hukuku	E	E	✓	10	11.58
+25	25	İş Hukuku	B	A	✗	2	75.16
+26	26	İş Hukuku	C	E	✗	4	16.87
+27	27	İş Hukuku	E	B	✗	4	52.7
+28	28	İş Hukuku	E	E	✓	10	18.89
+29	29	Vergi Hukuku	B	B	✓	10	20.97
+30	30	Vergi Hukuku	A	A	✓	10	14.53
+31	31	Vergi Hukuku	D	D	✓	10	38.56
+32	32	Medeni Hukuk	D	C	✗	5	42.54
+33	33	Medeni Hukuk	B	B	✓	10	15.13
+34	34	Medeni Hukuk	E	E	✓	8	18.2
+35	35	Medeni Hukuk	D	D	✓	8	51.7
+36	36	Medeni Hukuk	E		✗	0	80.05622291564941
+37	37	Medeni Hukuk	E	C	✗	4	48.41
+38	38	Medeni Hukuk	C	B	✗	5	52.59
+39	39	Medeni Hukuk	C	A	✗	5	14.22
+40	40	Medeni Hukuk	D	D	✓	9	42.15
+41	41	Medeni Hukuk	C	C	✓	10	15.96
+42	42	Medeni Hukuk	A	D	✗	5	27.61
+43	43	Medeni Hukuk	E	E	✓	9	27.28
+44	44	Medeni Hukuk	D	D	✓	8	18.36
+45	45	Ceza Genel Hukuku	D	B	✗	4	26.72
+46	46	Ceza Genel Hukuku	B	C	✗	4	15.3
+47	47	Ceza Genel Hukuku	B	B	✓	10	14.62
+48	48	Ceza Genel Hukuku	A	D	✗	2	21.95
+49	49	Ceza Genel Hukuku	D	D	✓	10	41.47
+50	50	Ceza Genel Hukuku	C	B	✗	4	19.05
+51	51	Ceza Genel Hukuku	D	D	✓	10	17.32
+52	52	Borçlar Genel Hukuku	D	D	✓	9	54.61
+53	53	Borçlar Genel Hukuku	B	B	✓	10	17.47
+54	54	Borçlar Genel Hukuku	B	E	✗	5	10.69
+55	55	Borçlar Genel Hukuku	A	D	✗	4	58.41
+56	56	Borçlar Genel Hukuku	A	A	✓	9	29.07
+57	57	Borçlar Genel Hukuku	B	B	✓	8	45.64
+58	58	Borçlar Genel Hukuku	D		✗	6	79.97
+59	59	Borçlar Genel Hukuku	C	D	✗	7	49.28
+60	60	İdare Hukuku	C	C	✓	10	38.71
+61	61	İdare Hukuku	A	A	✓	10	12.75
+62	62	İdare Hukuku	B	B	✓	10	29.48
+63	63	İdare Hukuku	D	D	✓	10	11.49
+64	64	İdare Hukuku	C	D	✗	2	16.13
+65	65	İdare Hukuku	A	A	✓	10	10.93
+66	66	İdare Hukuku	D	D	✓	10	11.64
+67	67	Ceza Özel Hukuku	B	B	✓	10	13.45
+68	68	Ceza Özel Hukuku	A	A	✓	10	36.17
+69	69	Ceza Özel Hukuku	C	C	✓	10	11.22
+70	70	Ceza Özel Hukuku	A	A	✓	10	12.45
+71	71	Ceza Özel Hukuku	D	D	✓	8	66.37
+72	72	Ceza Özel Hukuku	C	C	✓	10	11.42
+73	73	Ceza Özel Hukuku	E	E	✓	10	46.19
+74	74	Ceza Özel Hukuku	B	B	✓	10	12.46
+75	75	Borçlar Özel Hukuku	C	D	✗	5	46.16
+76	76	Borçlar Özel Hukuku	A	B	✗	5	34.48
+77	77	Borçlar Özel Hukuku	B	D	✗	4	28.31
+78	78	Borçlar Özel Hukuku	E	A	✗	4	61.16
+79	79	Borçlar Özel Hukuku	D	E	✗	2	45.29
+80	80	Borçlar Özel Hukuku	E	C	✗	5	57.8
+81	81	Borçlar Özel Hukuku	E	E	✓	8	15.37
+82	82	Borçlar Özel Hukuku	B	E	✗	4	52.54
+83	83	Medeni Usul Hukuku	E	E	✓	10	18.67
+84	84	Medeni Usul Hukuku	A	B	✗	6	18.41
+85	85	Medeni Usul Hukuku	D	D	✓	10	15.53
+86	86	Medeni Usul Hukuku	B	B	✓	8	26.08
+87	87	Medeni Usul Hukuku	C	C	✓	10	60.82
+88	88	Medeni Usul Hukuku	C	C	✓	9	17.83
+89	89	Medeni Usul Hukuku	D		✗	0	84.16500496864319
+90	90	Medeni Usul Hukuku	C	C	✓	10	9.05
+91	91	Ticaret Hukuku	A	B	✗	4	18.51
+92	92	Ticaret Hukuku	C	A	✗	4	30.32
+93	93	Ticaret Hukuku	D	A	✗	5	33.6
+94	94	Ticaret Hukuku	C	C	✓	9	15.93
+95	95	Ticaret Hukuku	C	C	✓	8	16.36
+96	96	Ticaret Hukuku	A	C	✗	2	12.32
+97	97	Ticaret Hukuku	D	A	✗	4	43.69
+98	98	Ticaret Hukuku	E	A	✗	4	17.28
+99	99	Ticaret Hukuku	C	C	✓	10	20.72
+100	100	Ceza Muhakemesi Hukuku	D	B	✗	5	20.15

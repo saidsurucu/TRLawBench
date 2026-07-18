@@ -1,0 +1,81 @@
+{
+  "test_model": "google/gemma-4-12B-it",
+  "judge_model": "google/gemini-3.1-pro-preview",
+  "total_questions": 100,
+  "tested": 100,
+  "exact_match": 47,
+  "exact_match_pct": 47,
+  "avg_score": 6.17,
+  "topic_stats": {
+    "Benchmark 3 anayasa hukuku questions": {
+      "tested": 4,
+      "correct": 2,
+      "avg_score": 6.75
+    },
+    "Benchmark 3 ceza muhakemesi hukuku questions": {
+      "tested": 9,
+      "correct": 2,
+      "avg_score": 4.11
+    },
+    "Benchmark 3 i̇cra i̇flas hukuku questions": {
+      "tested": 7,
+      "correct": 3,
+      "avg_score": 6.29
+    },
+    "Benchmark 3 i̇dari yargılama hukuku questions": {
+      "tested": 4,
+      "correct": 2,
+      "avg_score": 6.75
+    },
+    "Benchmark 3 i̇ş hukuku questions": {
+      "tested": 5,
+      "correct": 1,
+      "avg_score": 3.0
+    },
+    "Benchmark 3 vergi hukuku questions": {
+      "tested": 3,
+      "correct": 3,
+      "avg_score": 8.67
+    },
+    "Benchmark 3 medeni hukuk questions": {
+      "tested": 13,
+      "correct": 5,
+      "avg_score": 5.31
+    },
+    "Benchmark 3 ceza genel hukuku questions": {
+      "tested": 7,
+      "correct": 3,
+      "avg_score": 5.86
+    },
+    "Benchmark 3 borçlar genel hukuku questions": {
+      "tested": 8,
+      "correct": 3,
+      "avg_score": 6.12
+    },
+    "Benchmark 3 i̇dare hukuku questions": {
+      "tested": 7,
+      "correct": 4,
+      "avg_score": 7.71
+    },
+    "Benchmark 3 ceza özel hukuku questions": {
+      "tested": 8,
+      "correct": 7,
+      "avg_score": 8.25
+    },
+    "Benchmark 3 borçlar özel hukuku questions": {
+      "tested": 8,
+      "correct": 3,
+      "avg_score": 6.38
+    },
+    "Benchmark 3 medeni usul hukuku questions": {
+      "tested": 8,
+      "correct": 5,
+      "avg_score": 7.12
+    },
+    "Benchmark 3 ticaret hukuku questions": {
+      "tested": 9,
+      "correct": 4,
+      "avg_score": 6.0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "test_model": "google/gemma-4-26B-A4B-it",
+  "judge_model": "google/gemini-3.1-pro-preview",
+  "total_questions": 2,
+  "tested": 2,
+  "exact_match": 0,
+  "exact_match_pct": 0.0,
+  "avg_score": 4.5,
+  "topic_stats": {
+    "Benchmark 3 medeni hukuk questions": {
+      "tested": 1,
+      "correct": 0,
+      "avg_score": 5.0
+    },
+    "Benchmark 3 medeni usul hukuku questions": {
+      "tested": 1,
+      "correct": 0,
+      "avg_score": 4.0
+    }
+  }
+}
