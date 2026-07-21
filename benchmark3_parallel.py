@@ -174,16 +174,19 @@ def main():
     ap.add_argument("--force", action="store_true", help="Checkpoint'te olsa bile yeniden sor")
     ap.add_argument("--model-base-url", default=None, help="Test modeli için özel base URL (ör. Modal vLLM)")
     ap.add_argument("--model-api-key-env", default="OPENROUTER_API_KEY")
+    ap.add_argument("--judge-base-url", default=None, help="Jüri modeli için özel base URL")
+    ap.add_argument("--judge-api-key-env", default="OPENROUTER_API_KEY")
     ap.add_argument("--think", action="store_true", help="Gemma 4 thinking mode")
     args = ap.parse_args()
     target_ids = {int(x) for x in args.ids.split(",") if x.strip()}
 
-    or_key = os.getenv("OPENROUTER_API_KEY", "no-key")
     or_base = "https://openrouter.ai/api/v1"
     test_base = args.model_base_url or or_base
     test_key = os.getenv(args.model_api_key_env, "no-key")
     test_client = OpenAI(base_url=test_base, api_key=test_key, timeout=600)
-    judge_client = OpenAI(base_url=or_base, api_key=or_key)
+    judge_base = args.judge_base_url or or_base
+    judge_key = os.getenv(args.judge_api_key_env, "no-key")
+    judge_client = OpenAI(base_url=judge_base, api_key=judge_key, timeout=600)
 
     with open(args.data, encoding="utf-8") as f:
         questions = json.load(f)
