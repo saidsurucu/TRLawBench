@@ -1,0 +1,46 @@
+{
+  "test_model": "google/gemini-3.6-flash-mcp-retry",
+  "judge_model": "google/gemini-3.1-pro-preview",
+  "total_questions": 13,
+  "tested": 13,
+  "exact_match": 5,
+  "exact_match_pct": 38.46,
+  "avg_score": 7.46,
+  "topic_stats": {
+    "Benchmark 3 ceza muhakemesi hukuku questions": {
+      "tested": 1,
+      "correct": 1,
+      "avg_score": 10.0
+    },
+    "Benchmark 3 i̇cra i̇flas hukuku questions": {
+      "tested": 2,
+      "correct": 1,
+      "avg_score": 8.5
+    },
+    "Benchmark 3 i̇dari yargılama hukuku questions": {
+      "tested": 1,
+      "correct": 0,
+      "avg_score": 4.0
+    },
+    "Benchmark 3 medeni hukuk questions": {
+      "tested": 4,
+      "correct": 1,
+      "avg_score": 7.0
+    },
+    "Benchmark 3 borçlar genel hukuku questions": {
+      "tested": 1,
+      "correct": 0,
+      "avg_score": 7.0
+    },
+    "Benchmark 3 borçlar özel hukuku questions": {
+      "tested": 2,
+      "correct": 1,
+      "avg_score": 10.0
+    },
+    "Benchmark 3 ticaret hukuku questions": {
+      "tested": 2,
+      "correct": 1,
+      "avg_score": 5.5
+    }
+  }
+}
